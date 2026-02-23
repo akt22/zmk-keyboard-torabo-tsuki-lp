@@ -90,6 +90,10 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        // Activate layer 4 then deactivate after 10 seconds
+        // ref: https://zenn.dev/kot149/articles/zmk-auto-mouse-layer
+        input-processors = <&zip_temp_layer 4 10000>;
     };
 
     vbatt: vbatt {
