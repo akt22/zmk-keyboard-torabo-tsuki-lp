@@ -7,6 +7,13 @@
 // ref: https://zenn.dev/kot149/articles/zmk-auto-mouse-layer
 &zip_temp_layer {
     require-prior-idle-ms = <200>;
+
+    excluded-positions = <
+        33 // J
+        34 // K
+        47 // M
+        48 // <
+    >;
 };
 
 &trackball_listener {
