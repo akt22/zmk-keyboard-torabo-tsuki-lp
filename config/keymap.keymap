@@ -106,11 +106,11 @@
 
         layer_4_mouse {
             bindings = <
-&trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &to 5   &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &lt 5 F24  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans     &trans
+&trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans     &trans
             >;
         };
 
