@@ -11,6 +11,7 @@
     excluded-positions = <
         33 // J
         34 // K
+        36 // ;
         39 // Z
         47 // M
         48 // <
