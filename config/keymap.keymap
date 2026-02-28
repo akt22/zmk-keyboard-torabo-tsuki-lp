@@ -74,7 +74,7 @@
             >;
         };
 
-        layer_1 {
+        layer_1_symbol {
             bindings = <
 &trans  &trans     &trans      &trans     &trans     &trans                    &trans          &trans    &trans     &trans             &trans         &trans
 &trans  &trans     &kp AMPS    &kp ASTRK  &kp LPAR   &kp RPAR                  &kp LPAR        &kp RPAR  &trans     &trans             &trans         &trans
@@ -84,7 +84,7 @@
             >;
         };
 
-        layer_2 {
+        layer_2_number {
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans                           &trans   &trans  &trans  &trans  &trans   &trans
 &trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                     &trans   &kp F7  &kp F8  &kp F9  &kp F12  &trans
@@ -94,7 +94,7 @@
             >;
         };
 
-        layer_3 {
+        layer_3_allow_shortcut {
             bindings = <
 &trans  &trans            &trans    &trans             &trans  &trans                                                         &trans            &trans                &trans    &trans                 &trans             &trans
 &trans  &trans            &kp UP    &trans             &trans  &trans                                                         &trans            &trans                &trans    &kp UP                 &trans             &trans
@@ -104,13 +104,23 @@
             >;
         };
 
-        layer_4 {
+        layer_4_mouse {
             bindings = <
 &trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+            >;
+        };
+
+        layer_5_scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
