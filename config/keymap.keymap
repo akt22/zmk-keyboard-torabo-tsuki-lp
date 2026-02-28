@@ -110,7 +110,7 @@
 &trans  &trans  &trans        &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &to 5   &trans  &trans     &trans     &trans  &trans  &trans
             >;
         };
 
